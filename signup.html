@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="Keywords" content="CIW, Web Foundations Associate, Example"/>
+<meta name="Description" content="Simple XHTML web form page for crochet site"/>
+<meta charset="utf-8"/>
+<LINK rel="stylesheet"  type="text/css" href="signup.css">
+<title>Sign Up</title>
+</head>
+
+<body>
+
+<h1>Sign Up</h1>
+
+<form
+method="post"
+action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+
+Enter Your Name: <input type="text" name="Name" size="41"/>
+<br/>
+<br/>
+Enter Your E-mail:<input type="text" name="Email" size="41"/>
+<br/>
+<br/>
+Enter Your Password: <input type="text" name="Password" size="41"/>
+<br/>
+<br/>
+Should we add you to our mailing list?<br/>
+<input type="radio" name="AddToList" value="yes" checked="checked"/>Yes
+<input type="radio" name="AddToList" value="no"/>No
+<br/>
+<br/>
+
+What is Your Occupation? (check all that apply):<br/>
+<input type="checkbox" name="Student"/> Student<br/>
+<input type="checkbox" name="Developer"/> Developer<br/>
+<input type="checkbox" name="Other IT"/> Other IT<br/>
+<input type="checkbox" name="Self Employed"/> Self Employed<br/>
+<input type="checkbox" name="Another Field"/> Another Field<br/>
+<br/>
+<br/>
+
+How often would you like to receive an e-mail from Crochet is a Creative and Fun Therapy Technique? <br/>
+<select name="EmailFreq">
+<option>Once a week</option>
+<option>Once or twice a month </option>
+<option>Once a month </option>
+<option value="Remove">Never </option>
+</select>
+<br/>
+<br/>
+
+What Development Area are you Interested in? (choose all that apply):
+<br/>
+<select name="Development" multiple="multiple" size="5">
+<option>Back-End</option>
+<option>Front-End</option>
+<option>Full-Stack</option>
+<option>Web</option>
+<option>UI</option>
+</select>
+<br/>
+<br/>
+
+Comments:<br/>
+<textarea name="comments" cols="30" rows="3">
+for comments please type
+</textarea>
+<br/>
+<br/>
+Please submit a file:<br>
+<input type="file" name="datafile" size="40">
+<br/>
+<br/>
+
+<input type="submit"/>
+<input type="reset"/>
+
+</form>
+
+<footer>
+<blockquote>
+<a href="webdev.html">Web Development Home</a> | <a href="webdevjobsskills.html">Jobs and Skills</a> 
+<br/><br/> &copy; 2017 Web Development Careers!
+</blockquote>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
